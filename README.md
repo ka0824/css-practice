@@ -10,8 +10,9 @@
 <summary>1. 가상 상위 컴포넌트 가운데 정렬</summary>
 <div markdown="1">
 <img src="https://user-images.githubusercontent.com/79782594/160424120-f6bb3bef-d18b-4ca6-9491-79c02381f572.png" alt="이미지 없음" />
-- 가장 상위 컴포넌트이므로 position: absolute로 가운데 정렬 시켜줘도 무방
-- 어차피 하위 컴포넌트들은 이 컴포넌트에 맞춰 따라옴.
+- 가장 상위 컴포넌트이므로 position: absolute로 가운데 정렬 시켜줘도 무방.  <br />
+- 어차피 하위 컴포넌트들은 이 컴포넌트에 맞춰 따라옴.  <br />
+- 50% 위, 오른쪽으로 이동시켜준 다음, 다시 땡겨오는 방법 사용. <br />  
 
 </div>
 </details>
