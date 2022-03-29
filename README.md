@@ -9,11 +9,34 @@
 <details>
 <summary>1. 가상 상위 컴포넌트 가운데 정렬</summary>
 <div markdown="1">
-<img src="https://user-images.githubusercontent.com/79782594/160424120-f6bb3bef-d18b-4ca6-9491-79c02381f572.png" alt="이미지 없음" />
+<img width="300" alt="스크린샷 2022-03-29 오전 10 01 19" src="https://user-images.githubusercontent.com/79782594/160424120-f6bb3bef-d18b-4ca6-9491-79c02381f572.png"> <br />
 - 가장 상위 컴포넌트이므로 position: absolute로 가운데 정렬 시켜줘도 무방.  <br />
 - 어차피 하위 컴포넌트들은 이 컴포넌트에 맞춰 따라옴.  <br />
 - position:absolute를 지정한 뒤, 정중앙에서 엘리먼트가 시작 되게끔 함.(top: 50%, left:50%) <br />
 - 생성된 엘리먼트를 50% 씩 위, 옆으로 다시 이동시킴(transform: translate(-50%, -50%)
+  
+</div>
+</details>
+
+<br />
+
+<details>
+<summary>2. 하위 컴포넌트 가로로 정렬하기</summary>
+<div markdown="1">
+<img width="500" alt="스크린샷 2022-03-29 오전 10 01 19" src="https://user-images.githubusercontent.com/79782594/160517073-413cc2e3-2428-4b1b-8f26-59e14acfd458.png"> <br />
+- 상위 컴포넌트에 display:flex를 적용시킨 후, justify-content 속성을 활용.
+
+</div>
+</details>
+
+<br />
+
+<details>
+<summary>3. 이미지 삽화처리 넣기</summary>
+<div markdown="1">
+<img width="200" alt="스크린샷 2022-03-29 오전 10 53 29" src="https://user-images.githubusercontent.com/79782594/160517569-e2729974-1085-42b7-bbfe-057fab451efa.png"> <br />
+- 해당 이미지 태그에 float 속성을 부여함.  <br />
+- margin 값을 넣으면 엘리먼트 간의 간격을 조정할 수 있음.
 
 </div>
 </details>
