@@ -54,3 +54,18 @@
 </div>
 </details>
 
+<br />
+
+<details>
+<summary>5. grid 이용해 엘리먼트 자유롭게 배치하기</summary>
+<div markdown="1">
+<img width="400" alt="스크린샷 2022-03-29 오전 10 53 29" src="https://user-images.githubusercontent.com/79782594/160539216-9c8e64c3-3b36-4a0c-aabd-a98f09b6fe75.png"> <br />
+- display: grid 사용.  <br />
+- grid의 시작 여백은 padding 이용하기  <br />
+- grid에 들어가는 div 엘리먼트의 수를 알 수 있고, 변하지 않는다면 grid-template 사용.  <br />
+- div 엘리먼트의 수를 알 수 없거나, 계속 변화한다면 grid-auto를 사용. <br />
+- fr은 주어진 길이를 비율로 나눈 값.
+- grid 속성을 사용할 때는 호환성에 주의해야 함.
+  
+</div>
+</details>
