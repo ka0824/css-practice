@@ -40,3 +40,17 @@
 
 </div>
 </details>
+
+<br />
+
+<details>
+<summary>4. li 엘리먼트 구분선으로 나눠주기</summary>
+<div markdown="1">
+<img width="400" alt="스크린샷 2022-03-29 오전 10 53 29" src="https://user-images.githubusercontent.com/79782594/160532783-1a8d5ba0-e332-4942-9ff6-abe4e3df3ce8.png"> <br />
+- ul 엘리먼트에서 list-style:none으로 리스트에 생기는 점 제거.  <br />
+- align-items 이용해서 수직 가운데 정렬 (단, 엘리먼트의 height 값을 명시해야 함.  <br />
+- before 가상 선택자 이용해서 구분선 만들기.
+  
+</div>
+</details>
+
