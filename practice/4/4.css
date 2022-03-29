@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: beige;
+    position: absolute;
+    width: 100%;
+    height: 50px;
+}
+
+.head-list {
+    display: flex;
+    list-style: none;
+    justify-content: right;
+    align-items: center;
+    height: 50px;
+    margin-right: 100px;
+}
+
+.head-element {
+    display: block;
+}
+
+.head-element::before {
+    content: "";
+    height: 3px;
+    width: 0.1px;
+    background-color: gray;
+    padding: 1px;
+    opacity: 0.2;
+    margin: 0 10px;
+}
+
+.head-element:first-child::before {
+    display: none;
+}
